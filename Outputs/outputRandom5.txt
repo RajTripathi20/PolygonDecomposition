@@ -1,0 +1,105 @@
+Original Polygon:
+Printing vertices in clockwise order
+id1 -141 -141
+id2 -60 -60
+id3 12 12
+id4 -15 -15
+id5 -146 -146
+id6 -200 -200
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+id1 -141 -141
+id2 -60 -60
+id3 12 12
+id4 -15 -15
+id5 -146 -146
+id6 -200 -200
+
+
+
+Printing faces in clockwise order
+Face 1
+id1 -141 -141
+id2 -60 -60
+id3 12 12
+id4 -15 -15
+id5 -146 -146
+id6 -200 -200
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id2 -60 -60
+id3 12 12
+id4 -15 -15
+id5 -146 -146
+id6 -200 -200
+id1 -141 -141
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id3 12 12
+id4 -15 -15
+id5 -146 -146
+id6 -200 -200
+id1 -141 -141
+id2 -60 -60
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id4 -15 -15
+id5 -146 -146
+id6 -200 -200
+id1 -141 -141
+id2 -60 -60
+id3 12 12
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id5 -146 -146
+id6 -200 -200
+id1 -141 -141
+id2 -60 -60
+id3 12 12
+id4 -15 -15
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id6 -200 -200
+id1 -141 -141
+id2 -60 -60
+id3 12 12
+id4 -15 -15
+id5 -146 -146
+
+
+
+Coordinates are:
+(-141,-141)
+(-60,-60)
+(12,12)
+(-15,-15)
+(-146,-146)
+(-200,-200)
+Draw edges between the following pairs:
+(-60,-60)---(-141,-141)
+(12,12)---(-60,-60)
+(-15,-15)---(12,12)
+(-146,-146)---(-15,-15)
+(-200,-200)---(-141,-141)
+(-200,-200)---(-146,-146)
+
+
+

@@ -1,0 +1,115 @@
+\hypertarget{class_d_c_e_l}{}\doxysection{DCEL\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\label{class_d_c_e_l}\index{DCEL$<$ T $>$@{DCEL$<$ T $>$}}
+
+
+Class template for a Doubly Connected \mbox{\hyperlink{class_edge}{Edge}} List (\mbox{\hyperlink{class_d_c_e_l}{DCEL}}) data structure The \mbox{\hyperlink{class_d_c_e_l}{DCEL}} stores information about vertices, edges, and faces in a planar graph.  
+
+
+
+
+{\ttfamily \#include $<$dcel.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_d_c_e_l_a5caec17ec10149c8084d5e59a0d9323d}{DCEL}} ()
+\begin{DoxyCompactList}\small\item\em Default \mbox{\hyperlink{class_face}{Face}} Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_d_c_e_l_a830f49d79554ce482ffabce68783f67a}{DCEL}} (vector$<$ \mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$ $\ast$ $>$ vertices, vector$<$ \mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$ $>$ edges)
+\begin{DoxyCompactList}\small\item\em Constructs face with given vertices and edges. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_d_c_e_l_a2db4d34048e841dc67b3d35a0bf35567}{DCEL}} (vector$<$ \mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$ $\ast$ $>$ vertices, vector$<$ \mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$ $>$ edges, vector$<$ \mbox{\hyperlink{class_face}{Face}}$<$ T $>$ $\ast$ $>$ faces)
+\begin{DoxyCompactList}\small\item\em Constructs face with given vertices,edges,faces. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$ $\ast$ $>$ \mbox{\hyperlink{class_d_c_e_l_a0065d3d2c417624ec24832c23f52e4f1}{get\+Vertices}} ()
+\begin{DoxyCompactList}\small\item\em Returns vertices. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$ $>$ \mbox{\hyperlink{class_d_c_e_l_ab491c8ba597cace361f9a2ccc82eeee7}{get\+Edges}} ()
+\begin{DoxyCompactList}\small\item\em Returns edges. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{class_face}{Face}}$<$ T $>$ $\ast$ $>$ \mbox{\hyperlink{class_d_c_e_l_a6045f39373f966b008bc369e69f0f224}{get\+Faces}} ()
+\begin{DoxyCompactList}\small\item\em Returns faces. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\newline
+class DCEL$<$ T $>$}
+Class template for a Doubly Connected \mbox{\hyperlink{class_edge}{Edge}} List (\mbox{\hyperlink{class_d_c_e_l}{DCEL}}) data structure The \mbox{\hyperlink{class_d_c_e_l}{DCEL}} stores information about vertices, edges, and faces in a planar graph. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & \\
+\hline
+\end{DoxyTemplParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_d_c_e_l_a5caec17ec10149c8084d5e59a0d9323d}\label{class_d_c_e_l_a5caec17ec10149c8084d5e59a0d9323d}} 
+\index{DCEL$<$ T $>$@{DCEL$<$ T $>$}!DCEL@{DCEL}}
+\index{DCEL@{DCEL}!DCEL$<$ T $>$@{DCEL$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{DCEL()}{DCEL()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_d_c_e_l}{DCEL}}$<$ T $>$\mbox{\hyperlink{class_d_c_e_l}{\+::\+DCEL}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Default \mbox{\hyperlink{class_face}{Face}} Constructor. 
+
+\mbox{\Hypertarget{class_d_c_e_l_a830f49d79554ce482ffabce68783f67a}\label{class_d_c_e_l_a830f49d79554ce482ffabce68783f67a}} 
+\index{DCEL$<$ T $>$@{DCEL$<$ T $>$}!DCEL@{DCEL}}
+\index{DCEL@{DCEL}!DCEL$<$ T $>$@{DCEL$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{DCEL()}{DCEL()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_d_c_e_l}{DCEL}}$<$ T $>$\mbox{\hyperlink{class_d_c_e_l}{\+::\+DCEL}} (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$ $\ast$ $>$}]{vertices,  }\item[{vector$<$ \mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$ $>$}]{edges }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructs face with given vertices and edges. 
+
+\mbox{\Hypertarget{class_d_c_e_l_a2db4d34048e841dc67b3d35a0bf35567}\label{class_d_c_e_l_a2db4d34048e841dc67b3d35a0bf35567}} 
+\index{DCEL$<$ T $>$@{DCEL$<$ T $>$}!DCEL@{DCEL}}
+\index{DCEL@{DCEL}!DCEL$<$ T $>$@{DCEL$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{DCEL()}{DCEL()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_d_c_e_l}{DCEL}}$<$ T $>$\mbox{\hyperlink{class_d_c_e_l}{\+::\+DCEL}} (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$ $\ast$ $>$}]{vertices,  }\item[{vector$<$ \mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$ $>$}]{edges,  }\item[{vector$<$ \mbox{\hyperlink{class_face}{Face}}$<$ T $>$ $\ast$ $>$}]{faces }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructs face with given vertices,edges,faces. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_d_c_e_l_ab491c8ba597cace361f9a2ccc82eeee7}\label{class_d_c_e_l_ab491c8ba597cace361f9a2ccc82eeee7}} 
+\index{DCEL$<$ T $>$@{DCEL$<$ T $>$}!getEdges@{getEdges}}
+\index{getEdges@{getEdges}!DCEL$<$ T $>$@{DCEL$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getEdges()}{getEdges()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+vector$<$ \mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$ $>$ \mbox{\hyperlink{class_d_c_e_l}{DCEL}}$<$ T $>$\+::get\+Edges (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns edges. 
+
+\mbox{\Hypertarget{class_d_c_e_l_a6045f39373f966b008bc369e69f0f224}\label{class_d_c_e_l_a6045f39373f966b008bc369e69f0f224}} 
+\index{DCEL$<$ T $>$@{DCEL$<$ T $>$}!getFaces@{getFaces}}
+\index{getFaces@{getFaces}!DCEL$<$ T $>$@{DCEL$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getFaces()}{getFaces()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+vector$<$ \mbox{\hyperlink{class_face}{Face}}$<$ T $>$ $\ast$ $>$ \mbox{\hyperlink{class_d_c_e_l}{DCEL}}$<$ T $>$\+::get\+Faces (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns faces. 
+
+\mbox{\Hypertarget{class_d_c_e_l_a0065d3d2c417624ec24832c23f52e4f1}\label{class_d_c_e_l_a0065d3d2c417624ec24832c23f52e4f1}} 
+\index{DCEL$<$ T $>$@{DCEL$<$ T $>$}!getVertices@{getVertices}}
+\index{getVertices@{getVertices}!DCEL$<$ T $>$@{DCEL$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getVertices()}{getVertices()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+vector$<$ \mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$ $\ast$ $>$ \mbox{\hyperlink{class_d_c_e_l}{DCEL}}$<$ T $>$\+::get\+Vertices (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns vertices. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{dcel_8h}{dcel.\+h}}\end{DoxyCompactItemize}

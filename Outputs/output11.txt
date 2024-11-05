@@ -1,0 +1,163 @@
+Original Polygon:
+Printing vertices in clockwise order
+A 3 0
+B 0 6
+C 3 3
+D 6 6
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+A 3 0
+B 0 6
+C 3 3
+
+
+
+Printing faces in clockwise order
+Face 1
+A 3 0
+B 0 6
+C 3 3
+
+
+
+Partition 2:
+Printing vertices in clockwise order
+C 3 3
+D 6 6
+A 3 0
+
+
+
+Printing faces in clockwise order
+Face 1
+A 3 0
+B 0 6
+C 3 3
+
+
+Face 2
+C 3 3
+D 6 6
+A 3 0
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+C 3 3
+D 6 6
+A 3 0
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+C 3 3
+D 6 6
+A 3 0
+
+
+
+Printing faces in clockwise order
+Face 1
+C 3 3
+D 6 6
+A 3 0
+
+
+
+Partition 2:
+Printing vertices in clockwise order
+B 0 6
+C 3 3
+A 3 0
+
+
+
+Printing faces in clockwise order
+Face 1
+C 3 3
+D 6 6
+A 3 0
+
+
+Face 2
+B 0 6
+C 3 3
+A 3 0
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+C 3 3
+D 6 6
+A 3 0
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+A 3 0
+B 0 6
+C 3 3
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+A 3 0
+B 0 6
+C 3 3
+
+
+
+Printing faces in clockwise order
+Face 1
+A 3 0
+B 0 6
+C 3 3
+
+
+
+Partition 2:
+Printing vertices in clockwise order
+C 3 3
+D 6 6
+A 3 0
+
+
+
+Printing faces in clockwise order
+Face 1
+A 3 0
+B 0 6
+C 3 3
+
+
+Face 2
+C 3 3
+D 6 6
+A 3 0
+
+
+
+Coordinates are:
+(3,0)
+(0,6)
+(3,3)
+(6,6)
+Draw edges between the following pairs:
+(0,6)---(3,0)
+(3,3)---(3,0)
+(3,3)---(0,6)
+(6,6)---(3,0)
+(6,6)---(3,3)
+
+
+
+
+Time taken:  0 microseconds

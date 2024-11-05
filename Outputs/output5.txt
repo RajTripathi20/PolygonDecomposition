@@ -1,0 +1,599 @@
+Original Polygon:
+Printing vertices in clockwise order
+A -7 7
+B 15 10
+C 14 7
+D 13 8
+E 11 5
+F 6 0
+G 0 0
+H -3 4
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+B 15 10
+C 14 7
+D 13 8
+
+
+
+Printing faces in clockwise order
+Face 1
+B 15 10
+C 14 7
+D 13 8
+
+
+
+Partition 2:
+Printing vertices in clockwise order
+D 13 8
+E 11 5
+F 6 0
+G 0 0
+H -3 4
+
+
+
+Printing faces in clockwise order
+Face 1
+B 15 10
+C 14 7
+D 13 8
+
+
+Face 2
+D 13 8
+E 11 5
+F 6 0
+G 0 0
+H -3 4
+
+
+
+Partition 3:
+Printing vertices in clockwise order
+H -3 4
+A -7 7
+B 15 10
+D 13 8
+
+
+
+Printing faces in clockwise order
+Face 1
+B 15 10
+C 14 7
+D 13 8
+
+
+Face 2
+D 13 8
+E 11 5
+F 6 0
+G 0 0
+H -3 4
+
+
+Face 3
+H -3 4
+A -7 7
+B 15 10
+D 13 8
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+B 15 10
+C 14 7
+D 13 8
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+D 13 8
+E 11 5
+F 6 0
+G 0 0
+H -3 4
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+D 13 8
+E 11 5
+F 6 0
+G 0 0
+H -3 4
+
+
+
+Printing faces in clockwise order
+Face 1
+D 13 8
+E 11 5
+F 6 0
+G 0 0
+H -3 4
+
+
+
+Partition 2:
+Printing vertices in clockwise order
+B 15 10
+C 14 7
+D 13 8
+
+
+
+Printing faces in clockwise order
+Face 1
+D 13 8
+E 11 5
+F 6 0
+G 0 0
+H -3 4
+
+
+Face 2
+B 15 10
+C 14 7
+D 13 8
+
+
+
+Partition 3:
+Printing vertices in clockwise order
+A -7 7
+B 15 10
+D 13 8
+H -3 4
+
+
+
+Printing faces in clockwise order
+Face 1
+D 13 8
+E 11 5
+F 6 0
+G 0 0
+H -3 4
+
+
+Face 2
+B 15 10
+C 14 7
+D 13 8
+
+
+Face 3
+A -7 7
+B 15 10
+D 13 8
+H -3 4
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+D 13 8
+E 11 5
+F 6 0
+G 0 0
+H -3 4
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+E 11 5
+F 6 0
+G 0 0
+H -3 4
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+E 11 5
+F 6 0
+G 0 0
+H -3 4
+
+
+
+Printing faces in clockwise order
+Face 1
+E 11 5
+F 6 0
+G 0 0
+H -3 4
+
+
+
+Partition 2:
+Printing vertices in clockwise order
+D 13 8
+E 11 5
+H -3 4
+A -7 7
+
+
+
+Printing faces in clockwise order
+Face 1
+E 11 5
+F 6 0
+G 0 0
+H -3 4
+
+
+Face 2
+D 13 8
+E 11 5
+H -3 4
+A -7 7
+
+
+
+Partition 3:
+Printing vertices in clockwise order
+B 15 10
+C 14 7
+D 13 8
+
+
+
+Printing faces in clockwise order
+Face 1
+E 11 5
+F 6 0
+G 0 0
+H -3 4
+
+
+Face 2
+D 13 8
+E 11 5
+H -3 4
+A -7 7
+
+
+Face 3
+B 15 10
+C 14 7
+D 13 8
+
+
+
+Partition 4:
+Printing vertices in clockwise order
+A -7 7
+B 15 10
+D 13 8
+
+
+
+Printing faces in clockwise order
+Face 1
+E 11 5
+F 6 0
+G 0 0
+H -3 4
+
+
+Face 2
+D 13 8
+E 11 5
+H -3 4
+A -7 7
+
+
+Face 3
+B 15 10
+C 14 7
+D 13 8
+
+
+Face 4
+A -7 7
+B 15 10
+D 13 8
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+F 6 0
+G 0 0
+H -3 4
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+F 6 0
+G 0 0
+H -3 4
+
+
+
+Printing faces in clockwise order
+Face 1
+F 6 0
+G 0 0
+H -3 4
+
+
+
+Partition 2:
+Printing vertices in clockwise order
+E 11 5
+F 6 0
+H -3 4
+A -7 7
+
+
+
+Printing faces in clockwise order
+Face 1
+F 6 0
+G 0 0
+H -3 4
+
+
+Face 2
+E 11 5
+F 6 0
+H -3 4
+A -7 7
+
+
+
+Partition 3:
+Printing vertices in clockwise order
+B 15 10
+C 14 7
+D 13 8
+
+
+
+Printing faces in clockwise order
+Face 1
+F 6 0
+G 0 0
+H -3 4
+
+
+Face 2
+E 11 5
+F 6 0
+H -3 4
+A -7 7
+
+
+Face 3
+B 15 10
+C 14 7
+D 13 8
+
+
+
+Partition 4:
+Printing vertices in clockwise order
+A -7 7
+B 15 10
+D 13 8
+
+
+
+Printing faces in clockwise order
+Face 1
+F 6 0
+G 0 0
+H -3 4
+
+
+Face 2
+E 11 5
+F 6 0
+H -3 4
+A -7 7
+
+
+Face 3
+B 15 10
+C 14 7
+D 13 8
+
+
+Face 4
+A -7 7
+B 15 10
+D 13 8
+
+
+
+Partition 5:
+Printing vertices in clockwise order
+A -7 7
+D 13 8
+E 11 5
+
+
+
+Printing faces in clockwise order
+Face 1
+F 6 0
+G 0 0
+H -3 4
+
+
+Face 2
+E 11 5
+F 6 0
+H -3 4
+A -7 7
+D 13 8
+
+
+Face 3
+B 15 10
+C 14 7
+D 13 8
+
+
+Face 4
+A -7 7
+B 15 10
+D 13 8
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+H -3 4
+A -7 7
+B 15 10
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+H -3 4
+A -7 7
+B 15 10
+
+
+
+Printing faces in clockwise order
+Face 1
+H -3 4
+A -7 7
+B 15 10
+
+
+
+Partition 2:
+Printing vertices in clockwise order
+B 15 10
+C 14 7
+D 13 8
+
+
+
+Printing faces in clockwise order
+Face 1
+H -3 4
+A -7 7
+B 15 10
+
+
+Face 2
+B 15 10
+C 14 7
+D 13 8
+
+
+
+Partition 3:
+Printing vertices in clockwise order
+D 13 8
+E 11 5
+F 6 0
+G 0 0
+H -3 4
+
+
+
+Printing faces in clockwise order
+Face 1
+H -3 4
+A -7 7
+B 15 10
+
+
+Face 2
+B 15 10
+C 14 7
+D 13 8
+
+
+Face 3
+D 13 8
+E 11 5
+F 6 0
+G 0 0
+H -3 4
+
+
+
+Partition 4:
+Printing vertices in clockwise order
+H -3 4
+B 15 10
+D 13 8
+
+
+
+Printing faces in clockwise order
+Face 1
+H -3 4
+A -7 7
+B 15 10
+D 13 8
+
+
+Face 2
+B 15 10
+C 14 7
+D 13 8
+
+
+Face 3
+D 13 8
+E 11 5
+F 6 0
+G 0 0
+H -3 4
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+H -3 4
+A -7 7
+B 15 10
+
+
+
+Coordinates are:
+(15,10)
+(14,7)
+(13,8)
+(11,5)
+(6,0)
+(0,0)
+(-3,4)
+(-7,7)
+Draw edges between the following pairs:
+(14,7)---(15,10)
+(13,8)---(15,10)
+(13,8)---(14,7)
+(11,5)---(13,8)
+(6,0)---(11,5)
+(0,0)---(6,0)
+(-3,4)---(13,8)
+(-3,4)---(0,0)
+(-7,7)---(15,10)
+(-7,7)---(-3,4)
+
+
+
+
+Time taken:  8123 microseconds

@@ -1,0 +1,246 @@
+Original Polygon:
+Printing vertices in clockwise order
+A -8 5
+B 8 21
+C 10 22
+D 7 -2
+E 2 2
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+A -8 5
+B 8 21
+C 10 22
+
+
+
+Printing faces in clockwise order
+Face 1
+A -8 5
+B 8 21
+C 10 22
+
+
+
+Partition 2:
+Printing vertices in clockwise order
+C 10 22
+D 7 -2
+E 2 2
+
+
+
+Printing faces in clockwise order
+Face 1
+A -8 5
+B 8 21
+C 10 22
+
+
+Face 2
+C 10 22
+D 7 -2
+E 2 2
+
+
+
+Partition 3:
+Printing vertices in clockwise order
+E 2 2
+A -8 5
+C 10 22
+
+
+
+Printing faces in clockwise order
+Face 1
+A -8 5
+B 8 21
+C 10 22
+E 2 2
+
+
+Face 2
+C 10 22
+D 7 -2
+E 2 2
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+B 8 21
+C 10 22
+D 7 -2
+E 2 2
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+B 8 21
+C 10 22
+D 7 -2
+E 2 2
+
+
+
+Printing faces in clockwise order
+Face 1
+B 8 21
+C 10 22
+D 7 -2
+E 2 2
+
+
+
+Partition 2:
+Printing vertices in clockwise order
+A -8 5
+B 8 21
+E 2 2
+
+
+
+Printing faces in clockwise order
+Face 1
+B 8 21
+C 10 22
+D 7 -2
+E 2 2
+
+
+Face 2
+A -8 5
+B 8 21
+E 2 2
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+C 10 22
+D 7 -2
+E 2 2
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+C 10 22
+D 7 -2
+E 2 2
+
+
+
+Printing faces in clockwise order
+Face 1
+C 10 22
+D 7 -2
+E 2 2
+
+
+
+Partition 2:
+Printing vertices in clockwise order
+B 8 21
+C 10 22
+E 2 2
+A -8 5
+
+
+
+Printing faces in clockwise order
+Face 1
+C 10 22
+D 7 -2
+E 2 2
+
+
+Face 2
+B 8 21
+C 10 22
+E 2 2
+A -8 5
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+E 2 2
+A -8 5
+B 8 21
+C 10 22
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+E 2 2
+A -8 5
+B 8 21
+C 10 22
+
+
+
+Printing faces in clockwise order
+Face 1
+E 2 2
+A -8 5
+B 8 21
+C 10 22
+
+
+
+Partition 2:
+Printing vertices in clockwise order
+C 10 22
+D 7 -2
+E 2 2
+
+
+
+Printing faces in clockwise order
+Face 1
+E 2 2
+A -8 5
+B 8 21
+C 10 22
+
+
+Face 2
+C 10 22
+D 7 -2
+E 2 2
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+E 2 2
+A -8 5
+B 8 21
+C 10 22
+
+
+
+Coordinates are:
+(-8,5)
+(8,21)
+(10,22)
+(7,-2)
+(2,2)
+Draw edges between the following pairs:
+(8,21)---(-8,5)
+(10,22)---(8,21)
+(7,-2)---(10,22)
+(2,2)---(-8,5)
+(2,2)---(10,22)
+(2,2)---(7,-2)
+
+
+
+
+Time taken:  3011 microseconds

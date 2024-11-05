@@ -1,0 +1,85 @@
+Original Polygon:
+Printing vertices in clockwise order
+id1 -200 -200
+id2 -26 -26
+id3 86 86
+id4 101 101
+id5 -70 -70
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+id1 -200 -200
+id2 -26 -26
+id3 86 86
+id4 101 101
+id5 -70 -70
+
+
+
+Printing faces in clockwise order
+Face 1
+id1 -200 -200
+id2 -26 -26
+id3 86 86
+id4 101 101
+id5 -70 -70
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id2 -26 -26
+id3 86 86
+id4 101 101
+id5 -70 -70
+id1 -200 -200
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id3 86 86
+id4 101 101
+id5 -70 -70
+id1 -200 -200
+id2 -26 -26
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id4 101 101
+id5 -70 -70
+id1 -200 -200
+id2 -26 -26
+id3 86 86
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id5 -70 -70
+id1 -200 -200
+id2 -26 -26
+id3 86 86
+id4 101 101
+
+
+
+Coordinates are:
+(-200,-200)
+(-26,-26)
+(86,86)
+(101,101)
+(-70,-70)
+Draw edges between the following pairs:
+(-26,-26)---(-200,-200)
+(86,86)---(-26,-26)
+(101,101)---(86,86)
+(-70,-70)---(-200,-200)
+(-70,-70)---(101,101)
+
+
+

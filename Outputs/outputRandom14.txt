@@ -1,0 +1,375 @@
+Original Polygon:
+Printing vertices in clockwise order
+id1 -200 -200
+id2 -135 -135
+id3 -38 -38
+id4 105 105
+id5 -11 -11
+id6 58 58
+id7 56 56
+id8 52 52
+id9 54 54
+id10 -7 -7
+id11 -6 -6
+id12 -28 -28
+id13 -76 -76
+id14 -138 -138
+id15 -57 -57
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+id1 -200 -200
+id2 -135 -135
+id3 -38 -38
+id4 105 105
+id5 -11 -11
+id6 58 58
+id7 56 56
+id8 52 52
+id9 54 54
+id10 -7 -7
+id11 -6 -6
+id12 -28 -28
+id13 -76 -76
+id14 -138 -138
+id15 -57 -57
+
+
+
+Printing faces in clockwise order
+Face 1
+id1 -200 -200
+id2 -135 -135
+id3 -38 -38
+id4 105 105
+id5 -11 -11
+id6 58 58
+id7 56 56
+id8 52 52
+id9 54 54
+id10 -7 -7
+id11 -6 -6
+id12 -28 -28
+id13 -76 -76
+id14 -138 -138
+id15 -57 -57
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id2 -135 -135
+id3 -38 -38
+id4 105 105
+id5 -11 -11
+id6 58 58
+id7 56 56
+id8 52 52
+id9 54 54
+id10 -7 -7
+id11 -6 -6
+id12 -28 -28
+id13 -76 -76
+id14 -138 -138
+id15 -57 -57
+id1 -200 -200
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id3 -38 -38
+id4 105 105
+id5 -11 -11
+id6 58 58
+id7 56 56
+id8 52 52
+id9 54 54
+id10 -7 -7
+id11 -6 -6
+id12 -28 -28
+id13 -76 -76
+id14 -138 -138
+id15 -57 -57
+id1 -200 -200
+id2 -135 -135
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id4 105 105
+id5 -11 -11
+id6 58 58
+id7 56 56
+id8 52 52
+id9 54 54
+id10 -7 -7
+id11 -6 -6
+id12 -28 -28
+id13 -76 -76
+id14 -138 -138
+id15 -57 -57
+id1 -200 -200
+id2 -135 -135
+id3 -38 -38
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id5 -11 -11
+id6 58 58
+id7 56 56
+id8 52 52
+id9 54 54
+id10 -7 -7
+id11 -6 -6
+id12 -28 -28
+id13 -76 -76
+id14 -138 -138
+id15 -57 -57
+id1 -200 -200
+id2 -135 -135
+id3 -38 -38
+id4 105 105
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id6 58 58
+id7 56 56
+id8 52 52
+id9 54 54
+id10 -7 -7
+id11 -6 -6
+id12 -28 -28
+id13 -76 -76
+id14 -138 -138
+id15 -57 -57
+id1 -200 -200
+id2 -135 -135
+id3 -38 -38
+id4 105 105
+id5 -11 -11
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id7 56 56
+id8 52 52
+id9 54 54
+id10 -7 -7
+id11 -6 -6
+id12 -28 -28
+id13 -76 -76
+id14 -138 -138
+id15 -57 -57
+id1 -200 -200
+id2 -135 -135
+id3 -38 -38
+id4 105 105
+id5 -11 -11
+id6 58 58
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id8 52 52
+id9 54 54
+id10 -7 -7
+id11 -6 -6
+id12 -28 -28
+id13 -76 -76
+id14 -138 -138
+id15 -57 -57
+id1 -200 -200
+id2 -135 -135
+id3 -38 -38
+id4 105 105
+id5 -11 -11
+id6 58 58
+id7 56 56
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id9 54 54
+id10 -7 -7
+id11 -6 -6
+id12 -28 -28
+id13 -76 -76
+id14 -138 -138
+id15 -57 -57
+id1 -200 -200
+id2 -135 -135
+id3 -38 -38
+id4 105 105
+id5 -11 -11
+id6 58 58
+id7 56 56
+id8 52 52
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id10 -7 -7
+id11 -6 -6
+id12 -28 -28
+id13 -76 -76
+id14 -138 -138
+id15 -57 -57
+id1 -200 -200
+id2 -135 -135
+id3 -38 -38
+id4 105 105
+id5 -11 -11
+id6 58 58
+id7 56 56
+id8 52 52
+id9 54 54
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id11 -6 -6
+id12 -28 -28
+id13 -76 -76
+id14 -138 -138
+id15 -57 -57
+id1 -200 -200
+id2 -135 -135
+id3 -38 -38
+id4 105 105
+id5 -11 -11
+id6 58 58
+id7 56 56
+id8 52 52
+id9 54 54
+id10 -7 -7
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id12 -28 -28
+id13 -76 -76
+id14 -138 -138
+id15 -57 -57
+id1 -200 -200
+id2 -135 -135
+id3 -38 -38
+id4 105 105
+id5 -11 -11
+id6 58 58
+id7 56 56
+id8 52 52
+id9 54 54
+id10 -7 -7
+id11 -6 -6
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id13 -76 -76
+id14 -138 -138
+id15 -57 -57
+id1 -200 -200
+id2 -135 -135
+id3 -38 -38
+id4 105 105
+id5 -11 -11
+id6 58 58
+id7 56 56
+id8 52 52
+id9 54 54
+id10 -7 -7
+id11 -6 -6
+id12 -28 -28
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id14 -138 -138
+id15 -57 -57
+id1 -200 -200
+id2 -135 -135
+id3 -38 -38
+id4 105 105
+id5 -11 -11
+id6 58 58
+id7 56 56
+id8 52 52
+id9 54 54
+id10 -7 -7
+id11 -6 -6
+id12 -28 -28
+id13 -76 -76
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id15 -57 -57
+id1 -200 -200
+id2 -135 -135
+id3 -38 -38
+id4 105 105
+id5 -11 -11
+id6 58 58
+id7 56 56
+id8 52 52
+id9 54 54
+id10 -7 -7
+id11 -6 -6
+id12 -28 -28
+id13 -76 -76
+id14 -138 -138
+
+
+
+Coordinates are:
+(-200,-200)
+(-135,-135)
+(-38,-38)
+(105,105)
+(-11,-11)
+(58,58)
+(56,56)
+(52,52)
+(54,54)
+(-7,-7)
+(-6,-6)
+(-28,-28)
+(-76,-76)
+(-138,-138)
+(-57,-57)
+Draw edges between the following pairs:
+(-135,-135)---(-200,-200)
+(-38,-38)---(-135,-135)
+(105,105)---(-38,-38)
+(-11,-11)---(105,105)
+(58,58)---(-11,-11)
+(56,56)---(58,58)
+(52,52)---(56,56)
+(54,54)---(52,52)
+(-7,-7)---(54,54)
+(-6,-6)---(-7,-7)
+(-28,-28)---(-6,-6)
+(-76,-76)---(-28,-28)
+(-138,-138)---(-76,-76)
+(-57,-57)---(-200,-200)
+(-57,-57)---(-138,-138)
+
+
+

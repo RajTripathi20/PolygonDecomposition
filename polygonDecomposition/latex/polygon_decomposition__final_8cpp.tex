@@ -1,0 +1,516 @@
+\hypertarget{polygon_decomposition__final_8cpp}{}\doxysection{polygon\+Decomposition\+\_\+final.\+cpp File Reference}
+\label{polygon_decomposition__final_8cpp}\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+{\ttfamily \#include $<$bits/stdc++.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}dcel.\+h\char`\"{}}\newline
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structline}{line}}
+\begin{DoxyCompactList}\small\item\em Defined by the endpoints p1 and p2. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}}~float
+\begin{DoxyCompactList}\small\item\em A macro defining the data type used throughout the code as float. Can be replaced with other datatypes from here itself. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}}~pair$<$\mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}},\mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}}$>$
+\begin{DoxyCompactList}\small\item\em Alias for pair of T (i.\+e., pair$<$float,float$>$) \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{polygon_decomposition__final_8cpp_a536b216e2e7c9641d4e232ad96dee3c2}{inf}}~1000000
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{polygon_decomposition__final_8cpp_ab1761c0fd330b417a801ea566d081184}{on\+Line}} (\mbox{\hyperlink{structline}{line}} l1, \mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}} p)
+\begin{DoxyCompactList}\small\item\em Checks whether p is on l1 or not. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{polygon_decomposition__final_8cpp_a49950d8d42a5d61a3346bdab66d144c4}{direction}} (\mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}} a, \mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}} b, \mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}} c)
+\begin{DoxyCompactList}\small\item\em Determines orientation of points a,b,c wrt to each other. \end{DoxyCompactList}\item 
+pair$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}}, \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_af447fe0d2634286a19043b3e58909634}{point\+Of\+Intersection}} (\mbox{\hyperlink{structline}{line}} l1, \mbox{\hyperlink{structline}{line}} l2)
+\begin{DoxyCompactList}\small\item\em Determines point of intersection of lines l1 and l2. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{polygon_decomposition__final_8cpp_a8db1a81e36632b79c91fa0c8c077139f}{points\+Are\+On\+Same\+Side}} (\mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}} p1, \mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}} p2, \mbox{\hyperlink{structline}{line}} l3)
+\begin{DoxyCompactList}\small\item\em Checks if two points p1 and p2 lie on the same or opposite sides of a line l3. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{polygon_decomposition__final_8cpp_a05bfb5c8b43d33044979399327da5932}{is\+Intersect}} (\mbox{\hyperlink{structline}{line}} l1, \mbox{\hyperlink{structline}{line}} l2, \mbox{\hyperlink{structline}{line}} l3)
+\begin{DoxyCompactList}\small\item\em Checks if the three lines l1,l2,l3 intersect. \end{DoxyCompactList}\item 
+pair$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}}, \mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}} $>$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_ada0e28a06c30b83a4c88ac88d23ea768}{get\+Rectangle\+Around\+Polygon}} (vector$<$ Vertex$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ $>$ \&partition\+Vertices)
+\begin{DoxyCompactList}\small\item\em Constructs a rectangle around the polygon to help verify is\+Inside\+Polygon if other points lie inside the partition created. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{polygon_decomposition__final_8cpp_ae60ddade80baeaa3843118f79a0829aa}{is\+Inside\+Polygon}} (vector$<$ Vertex$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ $>$ \&partition\+Vertices, vector$<$ Edge$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ $>$ \&partition\+Edges, Vertex$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$vertex)
+\begin{DoxyCompactList}\small\item\em Tells whether other points(not part of the partition) are inside the partition polygon. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{polygon_decomposition__final_8cpp_a08a80ab0d44e1f1cff5d9f217710df85}{is\+Reflex}} (Vertex$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$vertex1, Vertex$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$vertex2, Vertex$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$vertex3)
+\begin{DoxyCompactList}\small\item\em Tells you whether the angle subtended v1v2v3 in clockwise order is reflex(ie $>$180) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{polygon_decomposition__final_8cpp_a2b726e1f9b9cabf8fb9f2a683a1db2dc}{print\+Polygon}} (Edge$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$edge)
+\begin{DoxyCompactList}\small\item\em Prints the polygon. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{polygon_decomposition__final_8cpp_a5e7c3619286d71a7f79c93dd360ebc66}{print\+Decompositon}} (DCEL$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$decompositon)
+\begin{DoxyCompactList}\small\item\em Prints the final decomposition with the added edges in the original polygon. \end{DoxyCompactList}\item 
+DCEL$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_ad1c330b23fecea5c9bedc26db25316c4}{make\+Rectangle}} (\mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}} p1, \mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}} p2)
+\begin{DoxyCompactList}\small\item\em Constructs the rectangle given the coordinates of opposite corner points p1 and p2. \end{DoxyCompactList}\item 
+DCEL$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_aedc20b1d05560cff0d42101f564a2506}{return\+Partition\+And\+Update\+Polygon}} (vector$<$ Vertex$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ $>$ \&vertices, vector$<$ Edge$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ $>$ \&edges, int start, int count\+Partition)
+\begin{DoxyCompactList}\small\item\em Returns a convex partition and updates the original polygon to the relative complement of this partition. \end{DoxyCompactList}\item 
+DCEL$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a4be9454b970dde62913817acd5e394ee}{merge\+Partition\+With\+Decomposition}} (DCEL$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$partition\+Polygon, DCEL$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$polygon\+Decomposition, int \&count\+Partition)
+\begin{DoxyCompactList}\small\item\em Merges the partition polygon with the polygon decomposition and checks if removing any common edges leads to a convex polygon. If yes,it removes that edge and returns the polygon decomposition. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{polygon_decomposition__final_8cpp_a89d41ee0773c316c38c1d78dcef3d2f8}{convert\+DCELto\+Graph}} (DCEL$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$polygon\+DCEL, vector$<$ vector$<$ int $>$ $>$ \&adjacency\+Matrix, vector$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}} $>$ \&vertex\+List)
+\begin{DoxyCompactList}\small\item\em Takes a DCEL representation of a polygon as input and converts it into an adjacency matrix and a list of vertices. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0dbe1465d1baa8036b135b9783669c77}{print\+Graph}} (vector$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}} $>$ \&vertex\+List, vector$<$ vector$<$ int $>$ $>$ \&adjacency\+Matrix)
+\begin{DoxyCompactList}\small\item\em Prints graph\+:prints the graph represented by the given list of vertices and adjacency matrix. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{polygon_decomposition__final_8cpp_ae9cbb0c0742848e1b6a1225afb703c4e}{local}} (int i)
+\begin{DoxyCompactList}\small\item\em Utility function to handle input/output files. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{polygon_decomposition__final_8cpp_a6f865c1a1dc1a8424412988cc13bd9c1}{local\+Out}} (int i)
+\begin{DoxyCompactList}\small\item\em Creates an output file which acts as an input for visualise.\+py which visualises the output. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{polygon_decomposition__final_8cpp_ad976626a5563474dc378e3d981587938}{visualise}} (vector$<$ Vertex$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ $>$ vertices, vector$<$ vector$<$ int $>$ $>$ \&adjacency\+Matrix, int i)
+\begin{DoxyCompactList}\small\item\em To dump down the inputs for the visualiser in a file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{polygon_decomposition__final_8cpp_a89055c65003533a347a3727d910c56f2}{deep\+Copy}} (vector$<$ Vertex$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ $>$ \&vertices, vector$<$ Edge$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ $>$ \&edges, vector$<$ Vertex$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ $>$ vertices\+Const, vector$<$ Edge$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ $>$ edges\+Const)
+\begin{DoxyCompactList}\small\item\em Creates a deep copy of the vertices and edges, and store them in the non-\/constant vectors passed as arguments. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{polygon_decomposition__final_8cpp_a2d6d837d46e4bed18c287e0cd4ba9043}{polygon\+Compare}} (DCEL$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$polygon1, DCEL$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$polygon2)
+\begin{DoxyCompactList}\small\item\em To check if the two polygons p1 and p2 are the same. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{polygon_decomposition__final_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em program to convert a given \char`\"{}polygon\char`\"{} into a set of convex polygons without introducing additional vertices \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+ifstream \mbox{\hyperlink{polygon_decomposition__final_8cpp_a143f89ab7944a868c578745bd9ee3d08}{fin}}
+\item 
+ofstream \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0a2814a2252fee90794304506ef2e9c0}{fout}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_a536b216e2e7c9641d4e232ad96dee3c2}\label{polygon_decomposition__final_8cpp_a536b216e2e7c9641d4e232ad96dee3c2}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!inf@{inf}}
+\index{inf@{inf}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{inf}{inf}}
+{\footnotesize\ttfamily \#define inf~1000000}
+
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}\label{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!Point@{Point}}
+\index{Point@{Point}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{Point}{Point}}
+{\footnotesize\ttfamily \#define Point~pair$<$\mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}},\mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}}$>$}
+
+
+
+Alias for pair of T (i.\+e., pair$<$float,float$>$) 
+
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}\label{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!T@{T}}
+\index{T@{T}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{T}{T}}
+{\footnotesize\ttfamily \#define T~float}
+
+
+
+A macro defining the data type used throughout the code as float. Can be replaced with other datatypes from here itself. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_a89d41ee0773c316c38c1d78dcef3d2f8}\label{polygon_decomposition__final_8cpp_a89d41ee0773c316c38c1d78dcef3d2f8}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!convertDCELtoGraph@{convertDCELtoGraph}}
+\index{convertDCELtoGraph@{convertDCELtoGraph}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{convertDCELtoGraph()}{convertDCELtoGraph()}}
+{\footnotesize\ttfamily void convert\+DCELto\+Graph (\begin{DoxyParamCaption}\item[{DCEL$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$}]{polygon\+DCEL,  }\item[{vector$<$ vector$<$ int $>$ $>$ \&}]{adjacency\+Matrix,  }\item[{vector$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}} $>$ \&}]{vertex\+List }\end{DoxyParamCaption})}
+
+
+
+Takes a DCEL representation of a polygon as input and converts it into an adjacency matrix and a list of vertices. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em O(n$^\wedge$2)} & time where n is the number of vertices, O(n$^\wedge$2) space where n is the number of vertices \\
+\hline
+{\em polygon\+DCEL} & DCEL object denoting polygon \\
+\hline
+{\em \&adjacency\+Matrix} & 2D vector that will be used to store the adjacency matrix of the polygon as an undirected graph \\
+\hline
+{\em \&vertex\+List} & a reference to a vector of Points that will be used to store the coordinates of the vertices of the polygon in the same order as they appear in the adjacency\+Matrix. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_a89055c65003533a347a3727d910c56f2}\label{polygon_decomposition__final_8cpp_a89055c65003533a347a3727d910c56f2}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!deepCopy@{deepCopy}}
+\index{deepCopy@{deepCopy}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{deepCopy()}{deepCopy()}}
+{\footnotesize\ttfamily void deep\+Copy (\begin{DoxyParamCaption}\item[{vector$<$ Vertex$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ $>$ \&}]{vertices,  }\item[{vector$<$ Edge$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ $>$ \&}]{edges,  }\item[{vector$<$ Vertex$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ $>$}]{vertices\+Const,  }\item[{vector$<$ Edge$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ $>$}]{edges\+Const }\end{DoxyParamCaption})}
+
+
+
+Creates a deep copy of the vertices and edges, and store them in the non-\/constant vectors passed as arguments. 
+
+O(n) time where n is the number of vertices, O(n) space 
+\begin{DoxyParams}{Parameters}
+{\em vertices} & a reference to a vector of pointers to Vertex objects \\
+\hline
+{\em edges} & a reference to a vector of pointers to Edge objects \\
+\hline
+{\em vertices\+Const} & new vector of pointers to Vertex objects \\
+\hline
+{\em edges\+Const} & new vector of pointers to Edge objects \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_a49950d8d42a5d61a3346bdab66d144c4}\label{polygon_decomposition__final_8cpp_a49950d8d42a5d61a3346bdab66d144c4}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!direction@{direction}}
+\index{direction@{direction}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{direction()}{direction()}}
+{\footnotesize\ttfamily int direction (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}}}]{a,  }\item[{\mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}}}]{b,  }\item[{\mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}}}]{c }\end{DoxyParamCaption})}
+
+
+
+Determines orientation of points a,b,c wrt to each other. 
+
+O(1) time and O(1) space 
+\begin{DoxyParams}{Parameters}
+{\em a} & Point \\
+\hline
+{\em b} & Point \\
+\hline
+{\em c} & Point \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An integer-\/0 for colinearity,1 for clockwise,2 for anticlockwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_ada0e28a06c30b83a4c88ac88d23ea768}\label{polygon_decomposition__final_8cpp_ada0e28a06c30b83a4c88ac88d23ea768}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!getRectangleAroundPolygon@{getRectangleAroundPolygon}}
+\index{getRectangleAroundPolygon@{getRectangleAroundPolygon}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{getRectangleAroundPolygon()}{getRectangleAroundPolygon()}}
+{\footnotesize\ttfamily pair$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}}, \mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}} $>$ get\+Rectangle\+Around\+Polygon (\begin{DoxyParamCaption}\item[{vector$<$ Vertex$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ $>$ \&}]{partition\+Vertices }\end{DoxyParamCaption})}
+
+
+
+Constructs a rectangle around the polygon to help verify is\+Inside\+Polygon if other points lie inside the partition created. 
+
+O(n) where n is the number of vertices in the polygon, O(1) space 
+\begin{DoxyParams}{Parameters}
+{\em \&partition\+Vertices} & Pointer to the vertices of the polygon \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Co-\/ordinates of the lower left vertex and upper right vertex 
+\end{DoxyReturn}
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_ae60ddade80baeaa3843118f79a0829aa}\label{polygon_decomposition__final_8cpp_ae60ddade80baeaa3843118f79a0829aa}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!isInsidePolygon@{isInsidePolygon}}
+\index{isInsidePolygon@{isInsidePolygon}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{isInsidePolygon()}{isInsidePolygon()}}
+{\footnotesize\ttfamily bool is\+Inside\+Polygon (\begin{DoxyParamCaption}\item[{vector$<$ Vertex$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ $>$ \&}]{partition\+Vertices,  }\item[{vector$<$ Edge$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ $>$ \&}]{partition\+Edges,  }\item[{Vertex$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$}]{vertex }\end{DoxyParamCaption})}
+
+
+
+Tells whether other points(not part of the partition) are inside the partition polygon. 
+
+O(n) time where n is the number of vertices in the partition polygon, O(1) spacee 
+\begin{DoxyParams}{Parameters}
+{\em \&partition\+Vertices} & Partition Vertices \\
+\hline
+{\em \&partition\+Edges} & Partition Edges \\
+\hline
+{\em vertex} & Vertex \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True or False 
+\end{DoxyReturn}
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_a05bfb5c8b43d33044979399327da5932}\label{polygon_decomposition__final_8cpp_a05bfb5c8b43d33044979399327da5932}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!isIntersect@{isIntersect}}
+\index{isIntersect@{isIntersect}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{isIntersect()}{isIntersect()}}
+{\footnotesize\ttfamily int is\+Intersect (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structline}{line}}}]{l1,  }\item[{\mbox{\hyperlink{structline}{line}}}]{l2,  }\item[{\mbox{\hyperlink{structline}{line}}}]{l3 }\end{DoxyParamCaption})}
+
+
+
+Checks if the three lines l1,l2,l3 intersect. 
+
+O(1) time,O(1) space 
+\begin{DoxyParams}{Parameters}
+{\em l1} & line \\
+\hline
+{\em l2} & line \\
+\hline
+{\em l3} & line \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 if the three line segments do not intersect 1 if the three line segments intersect at three different points 2 if the two lines which form the edge of the polygon, intersect the line from a point in the polygon to infinity at a vertex of the polygon provided the edges lie on different sides of the line 3 if the two lines which form the edge of the polygon, intersect the line from a point in the polygon to infinity at a vertex of the polygon provided the edges lie on the same side of the line 
+\end{DoxyReturn}
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_a08a80ab0d44e1f1cff5d9f217710df85}\label{polygon_decomposition__final_8cpp_a08a80ab0d44e1f1cff5d9f217710df85}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!isReflex@{isReflex}}
+\index{isReflex@{isReflex}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{isReflex()}{isReflex()}}
+{\footnotesize\ttfamily bool is\+Reflex (\begin{DoxyParamCaption}\item[{Vertex$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$}]{vertex1,  }\item[{Vertex$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$}]{vertex2,  }\item[{Vertex$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$}]{vertex3 }\end{DoxyParamCaption})}
+
+
+
+Tells you whether the angle subtended v1v2v3 in clockwise order is reflex(ie $>$180) 
+
+O(1) time and O(1) space 
+\begin{DoxyParams}{Parameters}
+{\em vertex1} & vertex1 \\
+\hline
+{\em vertex2} & vertex2 \\
+\hline
+{\em vertex3} & vertex3 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true or false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_ae9cbb0c0742848e1b6a1225afb703c4e}\label{polygon_decomposition__final_8cpp_ae9cbb0c0742848e1b6a1225afb703c4e}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!local@{local}}
+\index{local@{local}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{local()}{local()}}
+{\footnotesize\ttfamily void local (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Utility function to handle input/output files. 
+
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_a6f865c1a1dc1a8424412988cc13bd9c1}\label{polygon_decomposition__final_8cpp_a6f865c1a1dc1a8424412988cc13bd9c1}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!localOut@{localOut}}
+\index{localOut@{localOut}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{localOut()}{localOut()}}
+{\footnotesize\ttfamily void local\+Out (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Creates an output file which acts as an input for visualise.\+py which visualises the output. 
+
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{polygon_decomposition__final_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!main@{main}}
+\index{main@{main}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+program to convert a given \char`\"{}polygon\char`\"{} into a set of convex polygons without introducing additional vertices 
+
+Worst Case Time Complexity-\/ O(n$^\wedge$4) where n is the number of vertices in the original polygon
+
+Worst Case Space Complexity-\/ O(n$^\wedge$2) where n is the number of vertices in the original polygon \mbox{\Hypertarget{polygon_decomposition__final_8cpp_ad1c330b23fecea5c9bedc26db25316c4}\label{polygon_decomposition__final_8cpp_ad1c330b23fecea5c9bedc26db25316c4}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!makeRectangle@{makeRectangle}}
+\index{makeRectangle@{makeRectangle}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{makeRectangle()}{makeRectangle()}}
+{\footnotesize\ttfamily DCEL$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ make\+Rectangle (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}}}]{p1,  }\item[{\mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}}}]{p2 }\end{DoxyParamCaption})}
+
+
+
+Constructs the rectangle given the coordinates of opposite corner points p1 and p2. 
+
+O(1) time and O(1) space 
+\begin{DoxyParams}{Parameters}
+{\em p1} & Point \\
+\hline
+{\em p2} & Point \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to the DCEL object representing the rectangle 
+\end{DoxyReturn}
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_a4be9454b970dde62913817acd5e394ee}\label{polygon_decomposition__final_8cpp_a4be9454b970dde62913817acd5e394ee}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!mergePartitionWithDecomposition@{mergePartitionWithDecomposition}}
+\index{mergePartitionWithDecomposition@{mergePartitionWithDecomposition}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{mergePartitionWithDecomposition()}{mergePartitionWithDecomposition()}}
+{\footnotesize\ttfamily DCEL$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ merge\+Partition\+With\+Decomposition (\begin{DoxyParamCaption}\item[{DCEL$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$}]{partition\+Polygon,  }\item[{DCEL$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$}]{polygon\+Decomposition,  }\item[{int \&}]{count\+Partition }\end{DoxyParamCaption})}
+
+
+
+Merges the partition polygon with the polygon decomposition and checks if removing any common edges leads to a convex polygon. If yes,it removes that edge and returns the polygon decomposition. 
+
+O(n) time (where n is the number of vertices), O(n) space(where n is the number of vertices) 
+\begin{DoxyParams}{Parameters}
+{\em partition\+Polygon} & Partition of polygon \\
+\hline
+{\em polygon\+Decomposition} & Decomposition of a polygon \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to the resulting merged DCEL object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_ab1761c0fd330b417a801ea566d081184}\label{polygon_decomposition__final_8cpp_ab1761c0fd330b417a801ea566d081184}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!onLine@{onLine}}
+\index{onLine@{onLine}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{onLine()}{onLine()}}
+{\footnotesize\ttfamily bool on\+Line (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structline}{line}}}]{l1,  }\item[{\mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}}}]{p }\end{DoxyParamCaption})}
+
+
+
+Checks whether p is on l1 or not. 
+
+O(1) time and O(1) space 
+\begin{DoxyParams}{Parameters}
+{\em l1} & line \\
+\hline
+{\em p} & Point \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True or False 
+\end{DoxyReturn}
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_af447fe0d2634286a19043b3e58909634}\label{polygon_decomposition__final_8cpp_af447fe0d2634286a19043b3e58909634}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!pointOfIntersection@{pointOfIntersection}}
+\index{pointOfIntersection@{pointOfIntersection}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{pointOfIntersection()}{pointOfIntersection()}}
+{\footnotesize\ttfamily pair$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}}, \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ point\+Of\+Intersection (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structline}{line}}}]{l1,  }\item[{\mbox{\hyperlink{structline}{line}}}]{l2 }\end{DoxyParamCaption})}
+
+
+
+Determines point of intersection of lines l1 and l2. 
+
+O(1) time and O(1) space 
+\begin{DoxyParams}{Parameters}
+{\em l1} & line \\
+\hline
+{\em l2} & line \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Coordinates of the point 
+\end{DoxyReturn}
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_a8db1a81e36632b79c91fa0c8c077139f}\label{polygon_decomposition__final_8cpp_a8db1a81e36632b79c91fa0c8c077139f}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!pointsAreOnSameSide@{pointsAreOnSameSide}}
+\index{pointsAreOnSameSide@{pointsAreOnSameSide}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{pointsAreOnSameSide()}{pointsAreOnSameSide()}}
+{\footnotesize\ttfamily bool points\+Are\+On\+Same\+Side (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}}}]{p1,  }\item[{\mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}}}]{p2,  }\item[{\mbox{\hyperlink{structline}{line}}}]{l3 }\end{DoxyParamCaption})}
+
+
+
+Checks if two points p1 and p2 lie on the same or opposite sides of a line l3. 
+
+O(1) time and O(1) space 
+\begin{DoxyParams}{Parameters}
+{\em p1} & Point \\
+\hline
+{\em p2} & Point \\
+\hline
+{\em l3} & line \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True or False 
+\end{DoxyReturn}
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_a2d6d837d46e4bed18c287e0cd4ba9043}\label{polygon_decomposition__final_8cpp_a2d6d837d46e4bed18c287e0cd4ba9043}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!polygonCompare@{polygonCompare}}
+\index{polygonCompare@{polygonCompare}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{polygonCompare()}{polygonCompare()}}
+{\footnotesize\ttfamily bool polygon\+Compare (\begin{DoxyParamCaption}\item[{DCEL$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$}]{polygon1,  }\item[{DCEL$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$}]{polygon2 }\end{DoxyParamCaption})}
+
+
+
+To check if the two polygons p1 and p2 are the same. 
+
+O(n) time where n=number of vertices in polygon1=number of vertices in polygon 2,O(1) auxiliary space \mbox{\Hypertarget{polygon_decomposition__final_8cpp_a5e7c3619286d71a7f79c93dd360ebc66}\label{polygon_decomposition__final_8cpp_a5e7c3619286d71a7f79c93dd360ebc66}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!printDecompositon@{printDecompositon}}
+\index{printDecompositon@{printDecompositon}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{printDecompositon()}{printDecompositon()}}
+{\footnotesize\ttfamily void print\+Decompositon (\begin{DoxyParamCaption}\item[{DCEL$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$}]{decompositon }\end{DoxyParamCaption})}
+
+
+
+Prints the final decomposition with the added edges in the original polygon. 
+
+O(n) where n is the number of vertices, O(1) space complexity 
+\begin{DoxyParams}{Parameters}
+{\em decomposition} & decompositon \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_a0dbe1465d1baa8036b135b9783669c77}\label{polygon_decomposition__final_8cpp_a0dbe1465d1baa8036b135b9783669c77}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!printGraph@{printGraph}}
+\index{printGraph@{printGraph}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{printGraph()}{printGraph()}}
+{\footnotesize\ttfamily void print\+Graph (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a264185c815a47814791f68e7c6da85ad}{Point}} $>$ \&}]{vertex\+List,  }\item[{vector$<$ vector$<$ int $>$ $>$ \&}]{adjacency\+Matrix }\end{DoxyParamCaption})}
+
+
+
+Prints graph\+:prints the graph represented by the given list of vertices and adjacency matrix. 
+
+O(n$^\wedge$2) time complexity where n is the number of vertices in the vertex list, O(1) space complexity 
+\begin{DoxyParams}{Parameters}
+{\em \&vertex\+List} & A reference to a list carrying coordinates of the vertices \\
+\hline
+{\em \&adjacency\+Matrix} & Pointer to Adjacency Matrix \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_a2b726e1f9b9cabf8fb9f2a683a1db2dc}\label{polygon_decomposition__final_8cpp_a2b726e1f9b9cabf8fb9f2a683a1db2dc}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!printPolygon@{printPolygon}}
+\index{printPolygon@{printPolygon}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{printPolygon()}{printPolygon()}}
+{\footnotesize\ttfamily void print\+Polygon (\begin{DoxyParamCaption}\item[{Edge$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$}]{edge }\end{DoxyParamCaption})}
+
+
+
+Prints the polygon. 
+
+O(n) time where n is the number of edges in the polygon and O(1) space 
+\begin{DoxyParams}{Parameters}
+{\em edge} & edge \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_aedc20b1d05560cff0d42101f564a2506}\label{polygon_decomposition__final_8cpp_aedc20b1d05560cff0d42101f564a2506}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!returnPartitionAndUpdatePolygon@{returnPartitionAndUpdatePolygon}}
+\index{returnPartitionAndUpdatePolygon@{returnPartitionAndUpdatePolygon}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{returnPartitionAndUpdatePolygon()}{returnPartitionAndUpdatePolygon()}}
+{\footnotesize\ttfamily DCEL$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ return\+Partition\+And\+Update\+Polygon (\begin{DoxyParamCaption}\item[{vector$<$ Vertex$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ $>$ \&}]{vertices,  }\item[{vector$<$ Edge$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ $>$ \&}]{edges,  }\item[{int}]{start,  }\item[{int}]{count\+Partition }\end{DoxyParamCaption})}
+
+
+
+Returns a convex partition and updates the original polygon to the relative complement of this partition. 
+
+Worst Case Time Complexity-\/ O(n$^\wedge$2) where n is the number of vertices in the original polygon
+
+Worst Case Space Complexity-\/ O(n) where n is the number of vertices in the original polygon 
+\begin{DoxyParams}{Parameters}
+{\em \&vertices} & A vector of vertices holding the input polygon \\
+\hline
+{\em \&edges} & A vector of edges holding the connections between the vertices \\
+\hline
+{\em start} & index of the starting vertex in the input polygon \\
+\hline
+{\em count\+Partition} & \# of the current Partition \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to the DCEL object of the partition 
+\end{DoxyReturn}
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_ad976626a5563474dc378e3d981587938}\label{polygon_decomposition__final_8cpp_ad976626a5563474dc378e3d981587938}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!visualise@{visualise}}
+\index{visualise@{visualise}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{visualise()}{visualise()}}
+{\footnotesize\ttfamily void visualise (\begin{DoxyParamCaption}\item[{vector$<$ Vertex$<$ \mbox{\hyperlink{polygon_decomposition__final_8cpp_a0acb682b8260ab1c60b918599864e2e5}{T}} $>$ $\ast$ $>$}]{vertices,  }\item[{vector$<$ vector$<$ int $>$ $>$ \&}]{adjacency\+Matrix,  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+To dump down the inputs for the visualiser in a file. 
+
+O(n$^\wedge$2) time complexity where n is the number of vertices, O(1) space complexity 
+\begin{DoxyParams}{Parameters}
+{\em vertices} & List of Vertices \\
+\hline
+{\em adjacency\+Matrix} & Adjacency Matrix \\
+\hline
+{\em i} & Index to create a unique file name in each call \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_a143f89ab7944a868c578745bd9ee3d08}\label{polygon_decomposition__final_8cpp_a143f89ab7944a868c578745bd9ee3d08}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!fin@{fin}}
+\index{fin@{fin}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{fin}{fin}}
+{\footnotesize\ttfamily ifstream fin}
+
+\mbox{\Hypertarget{polygon_decomposition__final_8cpp_a0a2814a2252fee90794304506ef2e9c0}\label{polygon_decomposition__final_8cpp_a0a2814a2252fee90794304506ef2e9c0}} 
+\index{polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}!fout@{fout}}
+\index{fout@{fout}!polygonDecomposition\_final.cpp@{polygonDecomposition\_final.cpp}}
+\doxysubsubsection{\texorpdfstring{fout}{fout}}
+{\footnotesize\ttfamily ofstream fout}
+

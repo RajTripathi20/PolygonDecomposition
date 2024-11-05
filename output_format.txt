@@ -1,0 +1,5 @@
+construct a "graph" using a typical implementation to be passed to the visualiser script(along with
+
+the original polygon) using the exec call, resulting in a visual representation of the original 
+
+polygon and the decomposition.

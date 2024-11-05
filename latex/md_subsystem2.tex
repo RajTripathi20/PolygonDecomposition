@@ -1,0 +1,202 @@
+\label{md_subsystem2_subsystem1}%
+\Hypertarget{md_subsystem2_subsystem1}%
+\hypertarget{md_subsystem2_Description}{}\doxysection{Description}\label{md_subsystem2_Description}
+{\bfseries{DATE OF DEVELOPMENT}}
+
+2023-\/03-\/07
+
+{\bfseries{AUTHORS}}
+
+Dhruv Saxena (\href{mailto:f20191369@hyderabad.bits-pilani.ac.in}{\texttt{ f20191369@hyderabad.\+bits-\/pilani.\+ac.\+in}})
+
+Pranjal Jasani (\href{mailto:f20190831@hyderabad.bits-pilani.ac.in}{\texttt{ f20190831@hyderabad.\+bits-\/pilani.\+ac.\+in}})
+
+Raj Tripathi (\href{mailto:f20190869@hyderabad.bits-pilani.ac.in}{\texttt{ f20190869@hyderabad.\+bits-\/pilani.\+ac.\+in}})
+
+Pranavi Gunda (\href{mailto:f20191068@hyderabad.bits-pilani.ac.in}{\texttt{ f20191068@hyderabad.\+bits-\/pilani.\+ac.\+in}})
+
+{\bfseries{ABOUT}}
+
+This code works on the problem of decomposing an arbitrary polygon into convex polygons,following a
+
+divide-\/and-\/conquer approach.
+
+The code has been developed according to the algorithms mentioned in the following research paper\+:
+
+Fernández, J., Cánovas, L., \& Pelegrın, B. (2000). Algorithms for the decomposition of a polygon into
+
+convex polygons. European Journal of Operational Research, 121(2), 330-\/342.\hypertarget{md_subsystem2_subsystem1section0}{}\doxysection{Input and Output Formats}\label{md_subsystem2_subsystem1section0}
+{\bfseries{INPUT FORMAT}}
+
+
+\begin{DoxyVerbInclude}
+First line contains an integer n representing the number of vertices in the polygon.
+The next n lines contains vertices(3 things, i.e vertex_id x_coord y_coord)
+connected in a clockwise fashion. Coordinate and id both should be unique
+Eg:
+5
+A 0 0
+B 0 6
+C 3 3
+D 6 6
+E 6 0
+
+The edges are A-B-C-D-E-A\end{DoxyVerbInclude}
+
+
+{\bfseries{OUTPUT FORMAT}}
+
+
+\begin{DoxyVerbInclude}
+construct a "graph" using a typical implementation to be passed to the visualiser script(along with
+
+the original polygon) using the exec call, resulting in a visual representation of the original 
+
+polygon and the decomposition.\end{DoxyVerbInclude}
+\hypertarget{md_subsystem2_subsystem1section1}{}\doxysection{Test Case 1}\label{md_subsystem2_subsystem1section1}
+{\bfseries{POLYGON DECOMPOSITION}}
+
+
+
+{\bfseries{EXECUTION TIME}}
+
+
+\begin{DoxyVerbInclude}
+2002 microsec
+\end{DoxyVerbInclude}
+\hypertarget{md_subsystem2_subsystem1section2}{}\doxysection{Test Case 2}\label{md_subsystem2_subsystem1section2}
+{\bfseries{POLYGON DECOMPOSITION}}
+
+
+
+{\bfseries{EXECUTION TIME}}
+
+
+\begin{DoxyVerbInclude}
+1000 microsec
+\end{DoxyVerbInclude}
+\hypertarget{md_subsystem2_subsystem1section3}{}\doxysection{Test Case 3}\label{md_subsystem2_subsystem1section3}
+{\bfseries{POLYGON DECOMPOSITION}}
+
+
+
+{\bfseries{EXECUTION TIME}}
+
+
+\begin{DoxyVerbInclude}
+2000 microsec
+\end{DoxyVerbInclude}
+\hypertarget{md_subsystem2_subsystem1section4}{}\doxysection{Test Case 4}\label{md_subsystem2_subsystem1section4}
+{\bfseries{POLYGON DECOMPOSITION}}
+
+
+
+{\bfseries{EXECUTION TIME}}
+
+
+\begin{DoxyVerbInclude}
+2000 microsec\end{DoxyVerbInclude}
+\hypertarget{md_subsystem2_subsystem1section5}{}\doxysection{Test Case 5}\label{md_subsystem2_subsystem1section5}
+{\bfseries{INPUT}}
+
+{\bfseries{POLYGON DECOMPOSITION}}
+
+
+
+{\bfseries{EXECUTION TIME}}
+
+
+\begin{DoxyVerbInclude}
+999 microsec\end{DoxyVerbInclude}
+\hypertarget{md_subsystem2_subsystem1section6}{}\doxysection{Test Case 6}\label{md_subsystem2_subsystem1section6}
+{\bfseries{POLYGON DECOMPOSITION}}
+
+
+
+{\bfseries{EXECUTION TIME}}
+
+
+\begin{DoxyVerbInclude}
+998 microsec\end{DoxyVerbInclude}
+\hypertarget{md_subsystem2_subsystem1section7}{}\doxysection{Test Case 7}\label{md_subsystem2_subsystem1section7}
+{\bfseries{POLYGON DECOMPOSITION}}
+
+
+
+{\bfseries{EXECUTION TIME}}
+
+
+\begin{DoxyVerbInclude}
+1993 microsec\end{DoxyVerbInclude}
+\hypertarget{md_subsystem2_subsystem1section8}{}\doxysection{Test Case 8}\label{md_subsystem2_subsystem1section8}
+{\bfseries{POLYGON DECOMPOSITION}}
+
+
+
+{\bfseries{EXECUTION TIME}}
+
+
+\begin{DoxyVerbInclude}
+2998 microsec\end{DoxyVerbInclude}
+\hypertarget{md_subsystem2_subsystem1section9}{}\doxysection{Test Case 9}\label{md_subsystem2_subsystem1section9}
+{\bfseries{POLYGON DECOMPOSITION}}
+
+
+
+{\bfseries{EXECUTION TIME}}
+
+
+\begin{DoxyVerbInclude}
+3002 microsec\end{DoxyVerbInclude}
+\hypertarget{md_subsystem2_subsystem1section10}{}\doxysection{Test Case 10}\label{md_subsystem2_subsystem1section10}
+{\bfseries{POLYGON DECOMPOSITION}}
+
+
+
+{\bfseries{EXECUTION TIME}}
+
+
+\begin{DoxyVerbInclude}
+1000 microsec
+\end{DoxyVerbInclude}
+\hypertarget{md_subsystem2_subsystem1section11}{}\doxysection{Test Case 11}\label{md_subsystem2_subsystem1section11}
+{\bfseries{POLYGON DECOMPOSITION}}
+
+
+
+{\bfseries{EXECUTION TIME}}
+
+
+\begin{DoxyVerbInclude}
+1000 microsec\end{DoxyVerbInclude}
+\hypertarget{md_subsystem2_subsystem1section12}{}\doxysection{Test Case 12}\label{md_subsystem2_subsystem1section12}
+{\bfseries{POLYGON DECOMPOSITION}}
+
+
+
+{\bfseries{EXECUTION TIME}}
+
+
+\begin{DoxyVerbInclude}
+2000 microsec\end{DoxyVerbInclude}
+\hypertarget{md_subsystem2_subsystem1section13}{}\doxysection{Test Case 13}\label{md_subsystem2_subsystem1section13}
+{\bfseries{POLYGON DECOMPOSITION}}
+
+
+
+{\bfseries{EXECUTION TIME}}
+
+
+\begin{DoxyVerbInclude}
+2001 microsec\end{DoxyVerbInclude}
+\hypertarget{md_subsystem2_subsystem1section14}{}\doxysection{Test Case 14}\label{md_subsystem2_subsystem1section14}
+{\bfseries{POLYGON DECOMPOSITION}}
+
+
+
+{\bfseries{EXECUTION TIME}}
+
+
+\begin{DoxyVerbInclude}
+2655792 microseconds\end{DoxyVerbInclude}
+ 

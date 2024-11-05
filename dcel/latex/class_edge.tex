@@ -1,0 +1,191 @@
+\hypertarget{class_edge}{}\doxysection{Edge\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\label{class_edge}\index{Edge$<$ T $>$@{Edge$<$ T $>$}}
+
+
+\mbox{\hyperlink{class_edge}{Edge}} Class for \mbox{\hyperlink{class_d_c_e_l}{DCEL}} data structure A pointer to an origin \mbox{\hyperlink{class_vertex}{Vertex}} of type Vertex$<$\+T$>$$\ast$. A pointer to a left \mbox{\hyperlink{class_face}{Face}} of type Face$<$\+T$>$$\ast$. A pointer to a twin \mbox{\hyperlink{class_edge}{Edge}} of type Edge$<$\+T$>$$\ast$. A pointer to the next \mbox{\hyperlink{class_edge}{Edge}} in the \mbox{\hyperlink{class_face}{Face}} of type Edge$<$\+T$>$$\ast$. A pointer to the previous \mbox{\hyperlink{class_edge}{Edge}} in the \mbox{\hyperlink{class_face}{Face}} of type Edge$<$\+T$>$$\ast$.  
+
+
+
+
+{\ttfamily \#include $<$dcel.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_edge_a15b7017ce7b7cac044d8422727e2bf77}{Edge}} ()
+\begin{DoxyCompactList}\small\item\em Default \mbox{\hyperlink{class_edge}{Edge}} Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_edge_a4e7ac4f70fe429072e77e1082b56d829}{Edge}} (\mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$ $\ast$origin\+Vertex)
+\begin{DoxyCompactList}\small\item\em Constructs an \mbox{\hyperlink{class_edge}{Edge}} object starting from the given vertex. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$ $\ast$ \mbox{\hyperlink{class_edge_af7497c1682a4b6ca0d17161042c777ff}{get\+Origin\+Vertex}} ()
+\begin{DoxyCompactList}\small\item\em Returns origin vertex. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_face}{Face}}$<$ T $>$ $\ast$ \mbox{\hyperlink{class_edge_a9f596b68c66cbcf27fa78bcc76bd6dda}{get\+Left\+Face}} ()
+\begin{DoxyCompactList}\small\item\em Returns left face. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$ \mbox{\hyperlink{class_edge_ae7df02ff4dcfec9b41d89b0f803474a0}{get\+Twin\+Edge}} ()
+\begin{DoxyCompactList}\small\item\em Returns twin edge. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$ \mbox{\hyperlink{class_edge_a727ac29b41700e933b915ca5b91c645b}{get\+Next\+Edge}} ()
+\begin{DoxyCompactList}\small\item\em Returns next edge. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$ \mbox{\hyperlink{class_edge_ae9310c9c2e08817af39cc3501e8ea839}{get\+Prev\+Edge}} ()
+\begin{DoxyCompactList}\small\item\em Returns previous vertex. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_edge_aa4de4230e8630cf29f9eb54030ba933a}{set\+Origin\+Vertex}} (\mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$ $\ast$origin\+Vertex)
+\begin{DoxyCompactList}\small\item\em To update origin vertex. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_edge_a34e6fdec7abcba3f54821ef16eb0fb45}{set\+Left\+Face}} (\mbox{\hyperlink{class_face}{Face}}$<$ T $>$ $\ast$left\+Face)
+\begin{DoxyCompactList}\small\item\em To update leftface. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_edge_a92a0f0a82740375579158290239670f5}{set\+Twin\+Edge}} (\mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$twin\+Edge)
+\begin{DoxyCompactList}\small\item\em To update twin edge. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_edge_a031113be4a81bd035950b64d8428e6e5}{set\+Next\+Edge}} (\mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$next\+Edge)
+\begin{DoxyCompactList}\small\item\em To update next edge. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_edge_a9977ddb59cae21148423d0fa56bc63f3}{set\+Prev\+Edge}} (\mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$prev\+Edge)
+\begin{DoxyCompactList}\small\item\em To update previous edge. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\newline
+class Edge$<$ T $>$}
+\mbox{\hyperlink{class_edge}{Edge}} Class for \mbox{\hyperlink{class_d_c_e_l}{DCEL}} data structure A pointer to an origin \mbox{\hyperlink{class_vertex}{Vertex}} of type Vertex$<$\+T$>$$\ast$. A pointer to a left \mbox{\hyperlink{class_face}{Face}} of type Face$<$\+T$>$$\ast$. A pointer to a twin \mbox{\hyperlink{class_edge}{Edge}} of type Edge$<$\+T$>$$\ast$. A pointer to the next \mbox{\hyperlink{class_edge}{Edge}} in the \mbox{\hyperlink{class_face}{Face}} of type Edge$<$\+T$>$$\ast$. A pointer to the previous \mbox{\hyperlink{class_edge}{Edge}} in the \mbox{\hyperlink{class_face}{Face}} of type Edge$<$\+T$>$$\ast$. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_edge_a15b7017ce7b7cac044d8422727e2bf77}\label{class_edge_a15b7017ce7b7cac044d8422727e2bf77}} 
+\index{Edge$<$ T $>$@{Edge$<$ T $>$}!Edge@{Edge}}
+\index{Edge@{Edge}!Edge$<$ T $>$@{Edge$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Edge()}{Edge()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$\mbox{\hyperlink{class_edge}{\+::\+Edge}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Default \mbox{\hyperlink{class_edge}{Edge}} Constructor. 
+
+\mbox{\Hypertarget{class_edge_a4e7ac4f70fe429072e77e1082b56d829}\label{class_edge_a4e7ac4f70fe429072e77e1082b56d829}} 
+\index{Edge$<$ T $>$@{Edge$<$ T $>$}!Edge@{Edge}}
+\index{Edge@{Edge}!Edge$<$ T $>$@{Edge$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Edge()}{Edge()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$\mbox{\hyperlink{class_edge}{\+::\+Edge}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$ $\ast$}]{origin\+Vertex }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructs an \mbox{\hyperlink{class_edge}{Edge}} object starting from the given vertex. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em origin\+Vertex} & Origin \mbox{\hyperlink{class_vertex}{Vertex}} \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_edge_a9f596b68c66cbcf27fa78bcc76bd6dda}\label{class_edge_a9f596b68c66cbcf27fa78bcc76bd6dda}} 
+\index{Edge$<$ T $>$@{Edge$<$ T $>$}!getLeftFace@{getLeftFace}}
+\index{getLeftFace@{getLeftFace}!Edge$<$ T $>$@{Edge$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getLeftFace()}{getLeftFace()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_face}{Face}}$<$ T $>$ $\ast$ \mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$\+::get\+Left\+Face (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns left face. 
+
+\mbox{\Hypertarget{class_edge_a727ac29b41700e933b915ca5b91c645b}\label{class_edge_a727ac29b41700e933b915ca5b91c645b}} 
+\index{Edge$<$ T $>$@{Edge$<$ T $>$}!getNextEdge@{getNextEdge}}
+\index{getNextEdge@{getNextEdge}!Edge$<$ T $>$@{Edge$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getNextEdge()}{getNextEdge()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$ \mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$\+::get\+Next\+Edge (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns next edge. 
+
+\mbox{\Hypertarget{class_edge_af7497c1682a4b6ca0d17161042c777ff}\label{class_edge_af7497c1682a4b6ca0d17161042c777ff}} 
+\index{Edge$<$ T $>$@{Edge$<$ T $>$}!getOriginVertex@{getOriginVertex}}
+\index{getOriginVertex@{getOriginVertex}!Edge$<$ T $>$@{Edge$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getOriginVertex()}{getOriginVertex()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$ $\ast$ \mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$\+::get\+Origin\+Vertex (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns origin vertex. 
+
+\mbox{\Hypertarget{class_edge_ae9310c9c2e08817af39cc3501e8ea839}\label{class_edge_ae9310c9c2e08817af39cc3501e8ea839}} 
+\index{Edge$<$ T $>$@{Edge$<$ T $>$}!getPrevEdge@{getPrevEdge}}
+\index{getPrevEdge@{getPrevEdge}!Edge$<$ T $>$@{Edge$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getPrevEdge()}{getPrevEdge()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$ \mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$\+::get\+Prev\+Edge (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns previous vertex. 
+
+\mbox{\Hypertarget{class_edge_ae7df02ff4dcfec9b41d89b0f803474a0}\label{class_edge_ae7df02ff4dcfec9b41d89b0f803474a0}} 
+\index{Edge$<$ T $>$@{Edge$<$ T $>$}!getTwinEdge@{getTwinEdge}}
+\index{getTwinEdge@{getTwinEdge}!Edge$<$ T $>$@{Edge$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getTwinEdge()}{getTwinEdge()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$ \mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$\+::get\+Twin\+Edge (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns twin edge. 
+
+\mbox{\Hypertarget{class_edge_a34e6fdec7abcba3f54821ef16eb0fb45}\label{class_edge_a34e6fdec7abcba3f54821ef16eb0fb45}} 
+\index{Edge$<$ T $>$@{Edge$<$ T $>$}!setLeftFace@{setLeftFace}}
+\index{setLeftFace@{setLeftFace}!Edge$<$ T $>$@{Edge$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{setLeftFace()}{setLeftFace()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$\+::set\+Left\+Face (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_face}{Face}}$<$ T $>$ $\ast$}]{left\+Face }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+To update leftface. 
+
+\mbox{\Hypertarget{class_edge_a031113be4a81bd035950b64d8428e6e5}\label{class_edge_a031113be4a81bd035950b64d8428e6e5}} 
+\index{Edge$<$ T $>$@{Edge$<$ T $>$}!setNextEdge@{setNextEdge}}
+\index{setNextEdge@{setNextEdge}!Edge$<$ T $>$@{Edge$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{setNextEdge()}{setNextEdge()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$\+::set\+Next\+Edge (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$}]{next\+Edge }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+To update next edge. 
+
+\mbox{\Hypertarget{class_edge_aa4de4230e8630cf29f9eb54030ba933a}\label{class_edge_aa4de4230e8630cf29f9eb54030ba933a}} 
+\index{Edge$<$ T $>$@{Edge$<$ T $>$}!setOriginVertex@{setOriginVertex}}
+\index{setOriginVertex@{setOriginVertex}!Edge$<$ T $>$@{Edge$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{setOriginVertex()}{setOriginVertex()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$\+::set\+Origin\+Vertex (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$ $\ast$}]{origin\+Vertex }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+To update origin vertex. 
+
+\mbox{\Hypertarget{class_edge_a9977ddb59cae21148423d0fa56bc63f3}\label{class_edge_a9977ddb59cae21148423d0fa56bc63f3}} 
+\index{Edge$<$ T $>$@{Edge$<$ T $>$}!setPrevEdge@{setPrevEdge}}
+\index{setPrevEdge@{setPrevEdge}!Edge$<$ T $>$@{Edge$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{setPrevEdge()}{setPrevEdge()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$\+::set\+Prev\+Edge (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$}]{prev\+Edge }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+To update previous edge. 
+
+\mbox{\Hypertarget{class_edge_a92a0f0a82740375579158290239670f5}\label{class_edge_a92a0f0a82740375579158290239670f5}} 
+\index{Edge$<$ T $>$@{Edge$<$ T $>$}!setTwinEdge@{setTwinEdge}}
+\index{setTwinEdge@{setTwinEdge}!Edge$<$ T $>$@{Edge$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{setTwinEdge()}{setTwinEdge()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$\+::set\+Twin\+Edge (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$}]{twin\+Edge }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+To update twin edge. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{dcel_8h}{dcel.\+h}}\end{DoxyCompactItemize}

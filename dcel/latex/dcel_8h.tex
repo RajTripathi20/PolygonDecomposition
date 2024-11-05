@@ -1,0 +1,23 @@
+\hypertarget{dcel_8h}{}\doxysection{dcel.\+h File Reference}
+\label{dcel_8h}\index{dcel.h@{dcel.h}}
+
+
+Header file containing classes and functions for the Doubly-\/\+Connected \mbox{\hyperlink{class_edge}{Edge}} List (\mbox{\hyperlink{class_d_c_e_l}{DCEL}}) data structure.  
+
+
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_vertex}{Vertex$<$ T $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_vertex}{Vertex}} Class for \mbox{\hyperlink{class_d_c_e_l}{DCEL}} data structure. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_edge}{Edge$<$ T $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_edge}{Edge}} Class for \mbox{\hyperlink{class_d_c_e_l}{DCEL}} data structure A pointer to an origin \mbox{\hyperlink{class_vertex}{Vertex}} of type Vertex$<$\+T$>$$\ast$. A pointer to a left \mbox{\hyperlink{class_face}{Face}} of type Face$<$\+T$>$$\ast$. A pointer to a twin \mbox{\hyperlink{class_edge}{Edge}} of type Edge$<$\+T$>$$\ast$. A pointer to the next \mbox{\hyperlink{class_edge}{Edge}} in the \mbox{\hyperlink{class_face}{Face}} of type Edge$<$\+T$>$$\ast$. A pointer to the previous \mbox{\hyperlink{class_edge}{Edge}} in the \mbox{\hyperlink{class_face}{Face}} of type Edge$<$\+T$>$$\ast$. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_face}{Face$<$ T $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_face}{Face}} Class for \mbox{\hyperlink{class_d_c_e_l}{DCEL}} data structure A unique ID of type int. A pointer to an incident \mbox{\hyperlink{class_edge}{Edge}} of type Edge$<$\+T$>$$\ast$. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_d_c_e_l}{DCEL$<$ T $>$}}
+\begin{DoxyCompactList}\small\item\em Class template for a Doubly Connected \mbox{\hyperlink{class_edge}{Edge}} List (\mbox{\hyperlink{class_d_c_e_l}{DCEL}}) data structure The \mbox{\hyperlink{class_d_c_e_l}{DCEL}} stores information about vertices, edges, and faces in a planar graph. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Header file containing classes and functions for the Doubly-\/\+Connected \mbox{\hyperlink{class_edge}{Edge}} List (\mbox{\hyperlink{class_d_c_e_l}{DCEL}}) data structure. 
+

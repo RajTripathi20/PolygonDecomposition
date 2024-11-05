@@ -1,0 +1,12 @@
+First line contains an integer n representing the number of vertices in the polygon.
+The next n lines contains vertices(3 things, i.e vertex_id x_coord y_coord)
+connected in a clockwise fashion. Coordinate and id both should be unique
+Eg:
+5
+A 0 0
+B 0 6
+C 3 3
+D 6 6
+E 6 0
+
+The edges are A-B-C-D-E-A

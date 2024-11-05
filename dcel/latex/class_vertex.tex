@@ -1,0 +1,163 @@
+\hypertarget{class_vertex}{}\doxysection{Vertex\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\label{class_vertex}\index{Vertex$<$ T $>$@{Vertex$<$ T $>$}}
+
+
+\mbox{\hyperlink{class_vertex}{Vertex}} Class for \mbox{\hyperlink{class_d_c_e_l}{DCEL}} data structure.  
+
+
+
+
+{\ttfamily \#include $<$dcel.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_vertex_a1d2bc647ed3e3e4a4a43f04aae1d2cbe}{Vertex}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor for \mbox{\hyperlink{class_vertex}{Vertex}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_vertex_a70eb1cefb9e940f956ed54c33f856a2d}{Vertex}} (string id, pair$<$ T, T $>$ coordinate)
+\begin{DoxyCompactList}\small\item\em Constructs a new \mbox{\hyperlink{class_vertex}{Vertex}} object with specified id and coordinate. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_vertex_a860d2c490bc0e73d3125a459c23dacfe}{Vertex}} (string id, pair$<$ T, T $>$ coordinate, \mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$incident\+Edge)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_vertex}{Vertex}} class constructor with id, coordinate, and incident edge. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_vertex_abd7f5fb27910acbaec4b420ceb2315ac}{get\+Id}} ()
+\begin{DoxyCompactList}\small\item\em Returns unique ID associated with the vertex. \end{DoxyCompactList}\item 
+pair$<$ T, T $>$ \mbox{\hyperlink{class_vertex_ae06c2097fba36feabddfc10a18e13473}{get\+Coordinate}} ()
+\begin{DoxyCompactList}\small\item\em Returns coordinates of the vertex. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$ \mbox{\hyperlink{class_vertex_a54f5ffb872e260f20205bfa3af06769b}{get\+Incident\+Edge}} ()
+\begin{DoxyCompactList}\small\item\em Returns the edge incident on this vertex. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_vertex_a5aba7f0b64faaa41514c3bd5cddae0d6}{set\+Id}} (string id)
+\begin{DoxyCompactList}\small\item\em To update the ID. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_vertex_a0da5b1dc4941913d28b291cb8ec2018c}{set\+Coordinate}} (pair$<$ T, T $>$ coordinate)
+\begin{DoxyCompactList}\small\item\em To update the coordinates. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_vertex_a95cba5f5dc092f0b974fca4b6c143a51}{set\+Incident\+Edge}} (\mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$incident\+Edge)
+\begin{DoxyCompactList}\small\item\em To update the incident edge. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\newline
+class Vertex$<$ T $>$}
+\mbox{\hyperlink{class_vertex}{Vertex}} Class for \mbox{\hyperlink{class_d_c_e_l}{DCEL}} data structure. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_vertex_a1d2bc647ed3e3e4a4a43f04aae1d2cbe}\label{class_vertex_a1d2bc647ed3e3e4a4a43f04aae1d2cbe}} 
+\index{Vertex$<$ T $>$@{Vertex$<$ T $>$}!Vertex@{Vertex}}
+\index{Vertex@{Vertex}!Vertex$<$ T $>$@{Vertex$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Vertex()}{Vertex()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$\mbox{\hyperlink{class_vertex}{\+::\+Vertex}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Default constructor for \mbox{\hyperlink{class_vertex}{Vertex}}. 
+
+\mbox{\Hypertarget{class_vertex_a70eb1cefb9e940f956ed54c33f856a2d}\label{class_vertex_a70eb1cefb9e940f956ed54c33f856a2d}} 
+\index{Vertex$<$ T $>$@{Vertex$<$ T $>$}!Vertex@{Vertex}}
+\index{Vertex@{Vertex}!Vertex$<$ T $>$@{Vertex$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Vertex()}{Vertex()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$\mbox{\hyperlink{class_vertex}{\+::\+Vertex}} (\begin{DoxyParamCaption}\item[{string}]{id,  }\item[{pair$<$ T, T $>$}]{coordinate }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructs a new \mbox{\hyperlink{class_vertex}{Vertex}} object with specified id and coordinate. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Unique identifier of the vertex \\
+\hline
+{\em coordinate} & Coordinate of the vertex \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_vertex_a860d2c490bc0e73d3125a459c23dacfe}\label{class_vertex_a860d2c490bc0e73d3125a459c23dacfe}} 
+\index{Vertex$<$ T $>$@{Vertex$<$ T $>$}!Vertex@{Vertex}}
+\index{Vertex@{Vertex}!Vertex$<$ T $>$@{Vertex$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Vertex()}{Vertex()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$\mbox{\hyperlink{class_vertex}{\+::\+Vertex}} (\begin{DoxyParamCaption}\item[{string}]{id,  }\item[{pair$<$ T, T $>$}]{coordinate,  }\item[{\mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$}]{incident\+Edge }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{class_vertex}{Vertex}} class constructor with id, coordinate, and incident edge. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Unique identifier of the vertex \\
+\hline
+{\em coordinate} & Coordinate of the vertex \\
+\hline
+{\em incident\+Edge} & Pointer to the incident edge of the vertex \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_vertex_ae06c2097fba36feabddfc10a18e13473}\label{class_vertex_ae06c2097fba36feabddfc10a18e13473}} 
+\index{Vertex$<$ T $>$@{Vertex$<$ T $>$}!getCoordinate@{getCoordinate}}
+\index{getCoordinate@{getCoordinate}!Vertex$<$ T $>$@{Vertex$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getCoordinate()}{getCoordinate()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+pair$<$ T, T $>$ \mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$\+::get\+Coordinate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns coordinates of the vertex. 
+
+\mbox{\Hypertarget{class_vertex_abd7f5fb27910acbaec4b420ceb2315ac}\label{class_vertex_abd7f5fb27910acbaec4b420ceb2315ac}} 
+\index{Vertex$<$ T $>$@{Vertex$<$ T $>$}!getId@{getId}}
+\index{getId@{getId}!Vertex$<$ T $>$@{Vertex$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+string \mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$\+::get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns unique ID associated with the vertex. 
+
+\mbox{\Hypertarget{class_vertex_a54f5ffb872e260f20205bfa3af06769b}\label{class_vertex_a54f5ffb872e260f20205bfa3af06769b}} 
+\index{Vertex$<$ T $>$@{Vertex$<$ T $>$}!getIncidentEdge@{getIncidentEdge}}
+\index{getIncidentEdge@{getIncidentEdge}!Vertex$<$ T $>$@{Vertex$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getIncidentEdge()}{getIncidentEdge()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$ \mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$\+::get\+Incident\+Edge (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns the edge incident on this vertex. 
+
+\mbox{\Hypertarget{class_vertex_a0da5b1dc4941913d28b291cb8ec2018c}\label{class_vertex_a0da5b1dc4941913d28b291cb8ec2018c}} 
+\index{Vertex$<$ T $>$@{Vertex$<$ T $>$}!setCoordinate@{setCoordinate}}
+\index{setCoordinate@{setCoordinate}!Vertex$<$ T $>$@{Vertex$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{setCoordinate()}{setCoordinate()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$\+::set\+Coordinate (\begin{DoxyParamCaption}\item[{pair$<$ T, T $>$}]{coordinate }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+To update the coordinates. 
+
+\mbox{\Hypertarget{class_vertex_a5aba7f0b64faaa41514c3bd5cddae0d6}\label{class_vertex_a5aba7f0b64faaa41514c3bd5cddae0d6}} 
+\index{Vertex$<$ T $>$@{Vertex$<$ T $>$}!setId@{setId}}
+\index{setId@{setId}!Vertex$<$ T $>$@{Vertex$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{setId()}{setId()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$\+::set\+Id (\begin{DoxyParamCaption}\item[{string}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+To update the ID. 
+
+\mbox{\Hypertarget{class_vertex_a95cba5f5dc092f0b974fca4b6c143a51}\label{class_vertex_a95cba5f5dc092f0b974fca4b6c143a51}} 
+\index{Vertex$<$ T $>$@{Vertex$<$ T $>$}!setIncidentEdge@{setIncidentEdge}}
+\index{setIncidentEdge@{setIncidentEdge}!Vertex$<$ T $>$@{Vertex$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{setIncidentEdge()}{setIncidentEdge()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_vertex}{Vertex}}$<$ T $>$\+::set\+Incident\+Edge (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_edge}{Edge}}$<$ T $>$ $\ast$}]{incident\+Edge }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+To update the incident edge. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{dcel_8h}{dcel.\+h}}\end{DoxyCompactItemize}

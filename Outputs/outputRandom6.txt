@@ -1,0 +1,126 @@
+Original Polygon:
+Printing vertices in clockwise order
+id1 -200 -200
+id2 127 127
+id3 127 127
+id4 96 96
+id5 69 69
+id6 30 30
+id7 29 29
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+id1 -200 -200
+id2 127 127
+id3 127 127
+id4 96 96
+id5 69 69
+id6 30 30
+id7 29 29
+
+
+
+Printing faces in clockwise order
+Face 1
+id1 -200 -200
+id2 127 127
+id3 127 127
+id4 96 96
+id5 69 69
+id6 30 30
+id7 29 29
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id2 127 127
+id3 127 127
+id4 96 96
+id5 69 69
+id6 30 30
+id7 29 29
+id1 -200 -200
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id3 127 127
+id4 96 96
+id5 69 69
+id6 30 30
+id7 29 29
+id1 -200 -200
+id2 127 127
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id4 96 96
+id5 69 69
+id6 30 30
+id7 29 29
+id1 -200 -200
+id2 127 127
+id3 127 127
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id5 69 69
+id6 30 30
+id7 29 29
+id1 -200 -200
+id2 127 127
+id3 127 127
+id4 96 96
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id6 30 30
+id7 29 29
+id1 -200 -200
+id2 127 127
+id3 127 127
+id4 96 96
+id5 69 69
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id7 29 29
+id1 -200 -200
+id2 127 127
+id3 127 127
+id4 96 96
+id5 69 69
+id6 30 30
+
+
+
+Coordinates are:
+(-200,-200)
+(127,127)
+(127,127)
+(96,96)
+(69,69)
+(30,30)
+(29,29)
+Draw edges between the following pairs:
+(127,127)---(-200,-200)
+(96,96)---(127,127)
+(69,69)---(96,96)
+(30,30)---(69,69)
+(29,29)---(-200,-200)
+(29,29)---(30,30)
+
+
+

@@ -1,0 +1,151 @@
+Original Polygon:
+Printing vertices in clockwise order
+id1 -143 -143
+id2 -100 -100
+id3 -44 -44
+id4 -1 -1
+id5 33 33
+id6 21 21
+id7 -138 -138
+id8 -200 -200
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+id1 -143 -143
+id2 -100 -100
+id3 -44 -44
+id4 -1 -1
+id5 33 33
+id6 21 21
+id7 -138 -138
+id8 -200 -200
+
+
+
+Printing faces in clockwise order
+Face 1
+id1 -143 -143
+id2 -100 -100
+id3 -44 -44
+id4 -1 -1
+id5 33 33
+id6 21 21
+id7 -138 -138
+id8 -200 -200
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id2 -100 -100
+id3 -44 -44
+id4 -1 -1
+id5 33 33
+id6 21 21
+id7 -138 -138
+id8 -200 -200
+id1 -143 -143
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id3 -44 -44
+id4 -1 -1
+id5 33 33
+id6 21 21
+id7 -138 -138
+id8 -200 -200
+id1 -143 -143
+id2 -100 -100
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id4 -1 -1
+id5 33 33
+id6 21 21
+id7 -138 -138
+id8 -200 -200
+id1 -143 -143
+id2 -100 -100
+id3 -44 -44
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id5 33 33
+id6 21 21
+id7 -138 -138
+id8 -200 -200
+id1 -143 -143
+id2 -100 -100
+id3 -44 -44
+id4 -1 -1
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id6 21 21
+id7 -138 -138
+id8 -200 -200
+id1 -143 -143
+id2 -100 -100
+id3 -44 -44
+id4 -1 -1
+id5 33 33
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id7 -138 -138
+id8 -200 -200
+id1 -143 -143
+id2 -100 -100
+id3 -44 -44
+id4 -1 -1
+id5 33 33
+id6 21 21
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+id8 -200 -200
+id1 -143 -143
+id2 -100 -100
+id3 -44 -44
+id4 -1 -1
+id5 33 33
+id6 21 21
+id7 -138 -138
+
+
+
+Coordinates are:
+(-143,-143)
+(-100,-100)
+(-44,-44)
+(-1,-1)
+(33,33)
+(21,21)
+(-138,-138)
+(-200,-200)
+Draw edges between the following pairs:
+(-100,-100)---(-143,-143)
+(-44,-44)---(-100,-100)
+(-1,-1)---(-44,-44)
+(33,33)---(-1,-1)
+(21,21)---(33,33)
+(-138,-138)---(21,21)
+(-200,-200)---(-143,-143)
+(-200,-200)---(-138,-138)
+
+
+

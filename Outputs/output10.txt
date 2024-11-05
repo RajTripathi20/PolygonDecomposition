@@ -1,0 +1,186 @@
+Original Polygon:
+Printing vertices in clockwise order
+A 0 0
+B 0 6
+C 3 3
+D 6 6
+E 6 0
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+A 0 0
+B 0 6
+C 3 3
+
+
+
+Printing faces in clockwise order
+Face 1
+A 0 0
+B 0 6
+C 3 3
+
+
+
+Partition 2:
+Printing vertices in clockwise order
+C 3 3
+D 6 6
+E 6 0
+A 0 0
+
+
+
+Printing faces in clockwise order
+Face 1
+A 0 0
+B 0 6
+C 3 3
+
+
+Face 2
+C 3 3
+D 6 6
+E 6 0
+A 0 0
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+C 3 3
+D 6 6
+E 6 0
+A 0 0
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+C 3 3
+D 6 6
+E 6 0
+A 0 0
+
+
+
+Printing faces in clockwise order
+Face 1
+C 3 3
+D 6 6
+E 6 0
+A 0 0
+
+
+
+Partition 2:
+Printing vertices in clockwise order
+B 0 6
+C 3 3
+A 0 0
+
+
+
+Printing faces in clockwise order
+Face 1
+C 3 3
+D 6 6
+E 6 0
+A 0 0
+
+
+Face 2
+B 0 6
+C 3 3
+A 0 0
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+C 3 3
+D 6 6
+E 6 0
+A 0 0
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+E 6 0
+A 0 0
+B 0 6
+C 3 3
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+E 6 0
+A 0 0
+B 0 6
+C 3 3
+
+
+
+Printing faces in clockwise order
+Face 1
+E 6 0
+A 0 0
+B 0 6
+C 3 3
+
+
+
+Partition 2:
+Printing vertices in clockwise order
+C 3 3
+D 6 6
+E 6 0
+
+
+
+Printing faces in clockwise order
+Face 1
+E 6 0
+A 0 0
+B 0 6
+C 3 3
+
+
+Face 2
+C 3 3
+D 6 6
+E 6 0
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+E 6 0
+A 0 0
+B 0 6
+C 3 3
+
+
+
+Coordinates are:
+(0,0)
+(0,6)
+(3,3)
+(6,6)
+(6,0)
+Draw edges between the following pairs:
+(0,6)---(0,0)
+(3,3)---(0,0)
+(3,3)---(0,6)
+(6,6)---(3,3)
+(6,0)---(0,0)
+(6,0)---(6,6)
+
+
+
+
+Time taken:  4001 microseconds

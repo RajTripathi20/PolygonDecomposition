@@ -1,0 +1,107 @@
+Original Polygon:
+Printing vertices in clockwise order
+A -2 2
+B -4 5
+C 2 11
+D 5 10
+E 6 6
+F 7 -2
+
+
+
+Partition 1:
+Printing vertices in clockwise order
+A -2 2
+B -4 5
+C 2 11
+D 5 10
+E 6 6
+F 7 -2
+
+
+
+Printing faces in clockwise order
+Face 1
+A -2 2
+B -4 5
+C 2 11
+D 5 10
+E 6 6
+F 7 -2
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+B -4 5
+C 2 11
+D 5 10
+E 6 6
+F 7 -2
+A -2 2
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+C 2 11
+D 5 10
+E 6 6
+F 7 -2
+A -2 2
+B -4 5
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+D 5 10
+E 6 6
+F 7 -2
+A -2 2
+B -4 5
+C 2 11
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+E 6 6
+F 7 -2
+A -2 2
+B -4 5
+C 2 11
+D 5 10
+
+
+
+First Partition only:
+Printing vertices in clockwise order
+F 7 -2
+A -2 2
+B -4 5
+C 2 11
+D 5 10
+E 6 6
+
+
+
+Coordinates are:
+(-2,2)
+(-4,5)
+(2,11)
+(5,10)
+(6,6)
+(7,-2)
+Draw edges between the following pairs:
+(-4,5)---(-2,2)
+(2,11)---(-4,5)
+(5,10)---(2,11)
+(6,6)---(5,10)
+(7,-2)---(-2,2)
+(7,-2)---(6,6)
+
+
+
+
+Time taken:  0 microseconds
